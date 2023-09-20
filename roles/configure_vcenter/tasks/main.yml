@@ -1,0 +1,5 @@
+---
+- name: "Configure VCenter"
+  ansible.builtin.include_tasks: vcenter.yml
+
+

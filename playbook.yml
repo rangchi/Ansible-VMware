@@ -1,0 +1,7 @@
+---
+- name: "Configure vSphere Site"
+  hosts: all
+  become: false
+  serial: 1
+  roles:
+    - role: configure_vcenter

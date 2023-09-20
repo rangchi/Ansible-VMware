@@ -1,0 +1,9 @@
+---
+- name: "Create Datacenter"
+  community.vmware.vmware_datacenter:
+    hostname: '{{ vcenter_server }}'
+    username: '{{ vcenter_username }}'
+    password: '{{ vcenter_password }}'
+    datacenter_name: '{{ vcenter_datacenter }}'
+    state: present
+    validate_certs: false

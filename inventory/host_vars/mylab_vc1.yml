@@ -1,0 +1,6 @@
+############   vCenter Variables   ############
+vcenter_server: "10.10.20.10"
+vcenter_username: "administrator@vsphere.local"
+vcenter_password: "VMware1!"
+vcenter_datacenter: "MY-LAB"
+vcenter_domain: "VSPHERE.LOCAL"

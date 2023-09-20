@@ -1,0 +1,7 @@
+all:
+  children:
+    mylab:
+      children:
+        vcenter:
+          hosts: 
+            mylab_vc1:
